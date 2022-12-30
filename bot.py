@@ -37,4 +37,4 @@ def run_discord_bot():
 				await send_message(message, user_message, False)
 				
 		load_dotenv()
-		client.run(os.getenv('BOT_TOKEN'))
+		client.run(os.environ['BOT_TOKEN'])
